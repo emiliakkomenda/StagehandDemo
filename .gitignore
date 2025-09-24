@@ -1,0 +1,47 @@
+# Ignore node dependencies
+node_modules/
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore build output
+/dist
+/build
+
+# Ignore logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore downloads and test artifacts
+downloads/
+Demo/downloads/
+
+# Ignore TypeScript output
+*.tsbuildinfo
+
+# Ignore coverage reports
+coverage/
+
+# Ignore IDE settings
+.vscode/
+.idea/
+
+# Ignore other temp files
+*.swp
+*.swo
+
+# Ignore Prettier config and test results (added by Copilot)
+Demo/.prettierignore
+Demo/.prettierrc
+Demo/test-results/
+
+# Ignore lock files (optional, if you want to keep only one)
+package-lock.json
+yarn.lock

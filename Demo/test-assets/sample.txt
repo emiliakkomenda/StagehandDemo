@@ -1,0 +1,2 @@
+This is a sample file for upload tests in the Stagehand demo project.
+You can replace this content with any test data you need.

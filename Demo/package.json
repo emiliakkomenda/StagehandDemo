@@ -1,0 +1,22 @@
+{
+  "name": "Demo",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx demo-tests.ts",
+    "test:playwright": "npx playwright test Demo/demo-tests-Playwright.spec.ts",
+    "test:stagehand": "npx ts-node Demo/demo-tests-Stagehand.ts",
+    "test:hybrid": "npx playwright test Demo/demo-tests-hybrid.spec.ts",
+    "test:all": "npx playwright test"
+  },
+  "dependencies": {
+    "@browserbasehq/stagehand": "latest",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "prettier": "^3.6.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.0.0"
+  }
+}
